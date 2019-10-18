@@ -5,8 +5,8 @@ A simple .NET JSON localization library
 Add the Nuget packages to your project:
 
 ```
-Install-Package EzJsonLocalization -Version 1.0.0
-Install-Package EzJsonLocalization.Web.AspNetCore -Version 1.0.0
+Install-Package EzJsonLocalization
+Install-Package EzJsonLocalization.Web.AspNetCore
 ```
 
 # Usage
