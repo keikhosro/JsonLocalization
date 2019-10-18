@@ -5,7 +5,7 @@ A simple .NET JSON localization library
 Set the JSON localization settings:
 
 ```c#
-services.AddJsonLocalization(new CustomDictionaryBuilder(), options => {
+services.AddJsonLocalization(options => {
     options.ResourceFolders = @".\\locale"
     options.DefaultLocale = "en-US"
 });
