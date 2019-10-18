@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLocalization", "JsonLocalization\JsonLocalization.csproj", "{45026612-6E0F-4C6C-9424-666142F59653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLocalization.Tests", "JsonLocalization.Tests\JsonLocalization.Tests.csproj", "{00E4F844-8C6E-4161-98A9-127E941E1062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLocalization.Web.AspNetCore", "JsonLocalization.Web.AspNetCore\JsonLocalization.Web.AspNetCore.csproj", "{05EBE075-A581-4AF7-9067-00A7E43E8229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45026612-6E0F-4C6C-9424-666142F59653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45026612-6E0F-4C6C-9424-666142F59653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45026612-6E0F-4C6C-9424-666142F59653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45026612-6E0F-4C6C-9424-666142F59653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E4F844-8C6E-4161-98A9-127E941E1062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E4F844-8C6E-4161-98A9-127E941E1062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E4F844-8C6E-4161-98A9-127E941E1062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E4F844-8C6E-4161-98A9-127E941E1062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EBE075-A581-4AF7-9067-00A7E43E8229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EBE075-A581-4AF7-9067-00A7E43E8229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EBE075-A581-4AF7-9067-00A7E43E8229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EBE075-A581-4AF7-9067-00A7E43E8229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
