@@ -47,7 +47,7 @@ _i18n.Translate("greeting")
 To change the locale:
 
 ```c#
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-CA");
+Thread.CurrentThread.CurrentCulture = new CultureInfo("fr-CA");
 ```
 
 # Fallback and substitution
