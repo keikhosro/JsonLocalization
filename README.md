@@ -14,7 +14,7 @@ Set the JSON localization settings:
 
 ```c#
 services.AddJsonLocalization(options => {
-    options.ResourceFolders = new[] { @"locale" };
+    options.ResourceFolders = new[] { "locale" };
     options.DefaultLocale = "en-US";
 });
 ```

@@ -12,6 +12,7 @@
     <PackageTags>json localization</PackageTags>
     <PackageId>EzJsonLocalization</PackageId>
     <Authors>Keikhosro Safavi</Authors>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

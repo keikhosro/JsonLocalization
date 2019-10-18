@@ -41,8 +41,9 @@ namespace JsonLocalization
 
             var cacheKey = _keyProvider.GetKey(new ReadOnlyCollection<string>(Translations.Keys.ToList()), key.Trim(),
                 CurrentLocale);
-            return Translations.ContainsKey(cacheKey)
-                ? string.Format(Translations[cacheKey], args ?? new object[0])
+
+            return Translations.TryGetValue(cacheKey, out var value)
+                ? string.Format(value, args ?? new object[0])
                 : fallback;
         }
 
